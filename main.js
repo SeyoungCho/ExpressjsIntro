@@ -151,6 +151,7 @@ const fs = require('fs');
 const path = require('path');
 const qs = require('querystring');
 const sanitizeHtml = require('sanitize-html');
+const bodyParser = require('body-parser');
 const template = require('./lib/template');
 const app = express();
 const port = 3000;
